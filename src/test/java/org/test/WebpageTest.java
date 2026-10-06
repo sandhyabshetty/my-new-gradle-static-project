@@ -22,9 +22,9 @@ public class WebpageTest {
     @Test
     public void titleValidationTest() {
         String actualTitle = driver.getTitle();
-        String expectedTitle = "gradle project";
+        String expectedTitle = "My Website";
         Assert.assertEquals(actualTitle, expectedTitle);
-        Assert.assertTrue(true, "Title should contain 'gradle'");
+        Assert.assertTrue(true, "Title should contain 'Website'");
     }
 
     @AfterTest
